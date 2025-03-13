@@ -1,0 +1,7 @@
+name: mi-bucket-s3-go
+description: Infraestructura como código con Pulumi en Go para AWS
+runtime: go
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-go
